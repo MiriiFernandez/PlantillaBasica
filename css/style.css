@@ -15,7 +15,7 @@ body {
   margin: 0 auto;
   /* margenes */
   box-sizing: border-box;
-  padding: 35px 35px 0 35px;
+  padding: 35px 60px 0 60px;
 }
 
 /* Circulo representando la zona del logo */
@@ -23,7 +23,7 @@ body {
   /* fondo del circulo */
   background-color: orange;
   /* forma */
-  width: 300px;
+  width: 200px;
   height: 200px;
   border-radius: 50%;
   margin: 20px;
