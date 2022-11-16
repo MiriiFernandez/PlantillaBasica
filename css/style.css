@@ -6,7 +6,7 @@ body {
 /* Contenedor */
 .container {
   /* fondo de la web */
-  background-color: #F9F9E2;
+  background-color: #f9f9e2;
   /* Poner altura falsa */
   height: 100vh;
   /* Ancho controlado */
@@ -20,21 +20,37 @@ body {
 
 /* Circulo representando la zona del logo */
 .circle {
- /* fondo del circulo */
+  /* fondo del circulo */
   background-color: orange;
   /* forma */
-  width: 200px;
+  width: 300px;
   height: 200px;
   border-radius: 50%;
 }
 
-.rectangulo{
-    /* fondo rectangulo */
-    background-color: orange;
-    /* forma */
-    width: 100%;
-    height: 600px;
-    border-radius: 150px;
-    /* margenes */
-    margin-top: 50px;
+.rectangulo {
+  /* fondo rectangulo */
+  background-color: orange;
+  /* forma */
+  width: 100%;
+  height: 600px;
+  border-radius: 150px;
+  /* margenes */
+  margin-top: 50px;
+}
+
+header{
+    display: flex;
+}
+
+.rectangulo_azul {
+  /* fondo rectangulo */
+  background-color: #026df0;
+  /* forma */
+  height: 120px;
+  width: 100%;
+  /* margenes */
+  margin-right: 100px;
+  margin-left: 100px;
+  padding: 25px 25px 25px 25px;
 }
