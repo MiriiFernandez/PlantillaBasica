@@ -41,16 +41,16 @@ body {
 
 header{
     display: flex;
+    align-items: center;
 }
 
 .rectangulo_azul {
   /* fondo rectangulo */
   background-color: #026df0;
   /* forma */
-  height: 120px;
+  height: 200px;
   width: 100%;
   /* margenes */
-  margin-right: 100px;
   margin-left: 100px;
-  padding: 25px 25px 25px 25px;
+  flex-grow: 1;
 }
