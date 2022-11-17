@@ -23,8 +23,8 @@ body {
   /* fondo del circulo */
   background-color: orange;
   /* forma */
-  width: 300px;
-  height: 250px;
+  width: 200px;
+  height: 180px;
   border-radius: 50%;
   margin: 20px;
 }
@@ -54,6 +54,7 @@ header {
   flex-grow: 1;
 }
 
+/* Rectangulo Blanco */
 .rectangulo_blanco {
   /* fondo rectangulo */
   background-color: rgb(255, 255, 255);
@@ -64,36 +65,34 @@ header {
   margin-top: 100px;
 }
 
-.ciruclo_rectangulo{
+/* Rectangulo + Circulo */
+.ciruclo_rectangulo {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  margin: 100px 0;
 }
 
-.circulo_verde{
+.reverso {
+  flex-direction: row-reverse;
+}
+
+.circulo_verde {
   /* fondo del circulo */
   background-color: green;
   /* forma */
   width: 300px;
-  height: 280px;
+  height: 300px;
   border-radius: 50%;
-  margin: 20px;
-  margin-top: 80px;
+  flex-shrink: 0; /*No es flexible dentro de FLEX*/
+  
 }
 
-.rectangulo_verde{
+.rectangulo_verde {
   /* fondo rectangulo */
   background-color: #8dff8d;
   /* forma */
-  width: 780px;
-  height: 180px;
+  height: 300px;
   /* margen */
-  margin-top: 100px;
-  padding: 45px;
-  flex-grow: 1;
-}
-
-.ciruclo_rectangulo2{
-  display: flex;
-  flex-direction: row-reverse;
+  flex-basis: 70%;
 }
