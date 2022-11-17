@@ -23,8 +23,8 @@ body {
   /* fondo del circulo */
   background-color: orange;
   /* forma */
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 250px;
   border-radius: 50%;
   margin: 20px;
 }
@@ -74,8 +74,8 @@ header {
   /* fondo del circulo */
   background-color: green;
   /* forma */
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 280px;
   border-radius: 50%;
   margin: 20px;
   margin-top: 80px;
@@ -85,11 +85,11 @@ header {
   /* fondo rectangulo */
   background-color: #8dff8d;
   /* forma */
-  width: 80%;
-  height: 190px;
+  width: 780px;
+  height: 180px;
   /* margen */
   margin-top: 100px;
-  padding: 35px;
+  padding: 45px;
   flex-grow: 1;
 }
 
