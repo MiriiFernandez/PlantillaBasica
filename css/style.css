@@ -15,7 +15,10 @@ body {
   margin: 0 auto;
   /* margenes */
   box-sizing: border-box;
-  padding: 35px 60px 0 60px;
+}
+
+header {
+  padding: 35px 35px 0 60px;
 }
 
 /* Circulo representando la zona del logo */
@@ -54,6 +57,10 @@ header {
   flex-grow: 1;
 }
 
+.rectangulos_blanco {
+  padding: 35px 35px 0 60px;
+}
+
 /* Rectangulo Blanco */
 .rectangulo_blanco {
   /* fondo rectangulo */
@@ -71,6 +78,7 @@ header {
   align-items: center;
   justify-content: space-between;
   margin: 100px 0;
+  padding: 35px 35px 0 60px;
 }
 
 .reverso {
@@ -85,7 +93,6 @@ header {
   height: 300px;
   border-radius: 50%;
   flex-shrink: 0; /*No es flexible dentro de FLEX*/
-  
 }
 
 .rectangulo_verde {
@@ -95,4 +102,19 @@ header {
   height: 300px;
   /* margen */
   flex-basis: 70%;
+}
+
+/* Footer */
+footer {
+  background-color: black;
+  height: 800px;
+  padding: 35px 35px 0 60px;
+}
+
+/* Circulo del footer */
+.circulo_negro {
+  background-color: orange;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
